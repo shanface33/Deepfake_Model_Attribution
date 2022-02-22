@@ -19,5 +19,5 @@ The DFDM dataset includes face-swap Deepfakes videos generated from five Autoenc
 
 
 ### Download
-If you would like to access the DFDM dataset, please fill out this [google form](https://docs.google.com/forms/d/e/1FAIpQLSeM-1pJ13RyPVgF0bGRQtLiupwWDvALD6rKa_Oa8sIluIqtSA/viewform?vc=0&c=0&w=1&flr=0&usp=mail_form_link). The download link will be sent to you once the form is accepted. If you have any questions, please send email to [dfdmdataset@gmail.com]
+If you would like to access the DFDM dataset, please fill out this [google form](https://docs.google.com/forms/d/e/1FAIpQLSeM-1pJ13RyPVgF0bGRQtLiupwWDvALD6rKa_Oa8sIluIqtSA/viewform?vc=0&c=0&w=1&flr=0&usp=mail_form_link). The download link will be sent to you once the form is accepted. If you have any questions, please send email to [dfdmdataset@gmail.com].
 
