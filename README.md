@@ -22,7 +22,7 @@ The DFDM dataset includes face-swap Deepfakes videos generated from five Autoenc
 If you would like to access the *DFDM* dataset, please fill out this [google form](https://docs.google.com/forms/d/e/1FAIpQLSeM-1pJ13RyPVgF0bGRQtLiupwWDvALD6rKa_Oa8sIluIqtSA/viewform?vc=0&c=0&w=1&flr=0&usp=mail_form_link). The download link will be sent to you once the form is accepted. If you have any questions, please send email to [dfdmdataset@gmail.com].
 
 ## Deepfake Model Attribution Codes
-We design a simple and effective Deepfake video model attribution method based on Spatial and Temporal Attention (DMA-STA), and achieved over 70% overall accuracy in identifying the higher-quality Deepfakes in DFDM dataset.
+We designed a simple and effective Deepfake video model attribution method based on Spatial and Temporal Attention (DMA-STA), and achieved an overall accuracy of ~70% in identifying the higher-quality Deepfakes in DFDM dataset.
 ### Usage
 Prerequisites: our code requires PyTorch and Python 3. 
 Pre-trained model: download the pretrained ResNet-50 model, put it into the 'data' folder, i.e., 'data/resnet50-19c8e357.pth'
