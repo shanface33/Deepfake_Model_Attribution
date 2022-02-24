@@ -26,8 +26,8 @@ We designed a simple and effective Deepfake video model attribution method based
 ### Usage
 1. **Prerequisites**: our code requires PyTorch and Python 3. 
 
-2. **Pre-trained model**: download the pretrained ResNet-50 model, put it into the 'data' folder, i.e., 'data/resnet50-19c8e357.pth'
+2. **Pre-trained model**: download the pretrained ResNet-50 model, put it into the 'data' folder, i.e., 'data/resnet50-19c8e357.pth'.
 
-3. **Data structure**: DF_class*/Video*/Frame1.png, ....
+3. **Data structure**: DF_class*/Video*/Frame1.png, ... .
 
 4. **Hyper-parameters**: you can modify 'config.py' to set more detailed hyper-parameters.
