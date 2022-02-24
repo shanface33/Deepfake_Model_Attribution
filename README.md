@@ -23,4 +23,13 @@ If you would like to access the *DFDM* dataset, please fill out this [google for
 
 ## Model Attribution
 
-Codes will be released soon.
+Prerequisites
+-------
+Our code requires PyTorch and Python 3.
+
+Download the pretrained ResNet-50 model, put it into the 'data' folder, i.e., 'data/resnet50-19c8e357.pth'
+-------
+
+You can modify 'config.py' to set more detailed hyper-parameters.
+
+```
