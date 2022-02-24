@@ -24,10 +24,10 @@ If you would like to access the *DFDM* dataset, please fill out this [google for
 ## Deepfake Model Attribution Codes
 We designed a simple and effective Deepfake video model attribution method based on Spatial and Temporal Attention (DMA-STA), and achieved an overall accuracy of ~70% in identifying the higher-quality Deepfakes in DFDM dataset.
 ### Usage
-**Prerequisites**: our code requires PyTorch and Python 3. 
+1 **Prerequisites**: our code requires PyTorch and Python 3. 
 
-**Pre-trained model**: download the pretrained ResNet-50 model, put it into the 'data' folder, i.e., 'data/resnet50-19c8e357.pth'
+2 **Pre-trained model**: download the pretrained ResNet-50 model, put it into the 'data' folder, i.e., 'data/resnet50-19c8e357.pth'
 
-**Data structure**: DF_class*/Video*/Frame1.png, ....
+3 **Data structure**: DF_class*/Video*/Frame1.png, ....
 
-**Hyper-parameters**: you can modify 'config.py' to set more detailed hyper-parameters.
+4 **Hyper-parameters**: you can modify 'config.py' to set more detailed hyper-parameters.
