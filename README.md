@@ -28,6 +28,6 @@ We designed a simple and effective Deepfake video model attribution method based
 
 2. **Pre-trained model**: download the pretrained ResNet-50 model, put it into the 'data' folder, i.e., 'data/resnet50-19c8e357.pth'.
 
-3. **Data structure**: DF_class*/Video*/Frame1.png, ... .
+3. **Data structure**: DF_class*/Video*/Frame1.png, ... (cropped face images).
 
 4. **Hyper-parameters**: you can modify 'config.py' to set more detailed hyper-parameters.
