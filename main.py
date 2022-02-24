@@ -99,7 +99,7 @@ def test(epoch):
     print('\nTest average loss: {:.4f}\t Accuracy: {:.2f}'.format(test_loss, sklearn_accuf*100))
     print('\n', conf_matrixf)
 
-    model_name = 'tmp/' + epoch + '_' + str(sklearn_accuf) + '.pth'
+    model_name = 'tmp/' + str(epoch) + '_' + str(sklearn_accuf) + '.pth'
     acc_max = max(acc_list)
     if sklearn_accuf > acc_max and sklearn_accuf > 20:
         torch.save(model.state_dict(), model_name)
