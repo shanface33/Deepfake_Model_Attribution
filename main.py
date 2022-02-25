@@ -101,7 +101,7 @@ def test(epoch):
 
     model_name = 'tmp/' + str(epoch) + '_' + str(sklearn_accuf) + '.pth'
     acc_max = max(acc_list)
-    if sklearn_accuf > acc_max and sklearn_accuf > 20:
+    if sklearn_accuf > acc_max:
         torch.save(model.state_dict(), model_name)
         print('I have saved the model')
 
