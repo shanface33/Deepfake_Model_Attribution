@@ -22,23 +22,6 @@ def conv3x3(in_planes, out_planes, stride=1):
     return nn.Conv2d(in_planes, out_planes, kernel_size=3, stride=stride,
                      padding=1, bias=False)
 
-class ChannelAttention(nn.Module):
-    def __init__(self, in_planes, ratio=16):
-        super(ChannelAttention, self).__init__()
-        self.avg_pool = nn.AdaptiveAvgPool2d(1)
-        self.max_pool = nn.AdaptiveMaxPool2d(1)
-           
-        self.fc = nn.Sequential(nn.Conv2d(in_planes, in_planes // 16, 1, bias=False),
-                               nn.ReLU(),
-                               nn.Conv2d(in_planes // 16, in_planes, 1, bias=False))
-        self.sigmoid = nn.Sigmoid()
-
-    def forward(self, x):
-        avg_out = self.fc(self.avg_pool(x))
-        max_out = self.fc(self.max_pool(x))
-        out = avg_out + max_out
-        return self.sigmoid(out)
-
 class SpatialAttention(nn.Module):
     def __init__(self, kernel_size=7):
         super(SpatialAttention, self).__init__()
@@ -81,7 +64,6 @@ class BasicBlock(nn.Module):
         self.conv2 = conv3x3(planes, planes)
         self.bn2 = nn.BatchNorm2d(planes)
 
-        #self.ca = ChannelAttention(planes)
         self.sa = SpatialAttention()
 
         self.downsample = downsample
@@ -97,7 +79,6 @@ class BasicBlock(nn.Module):
         out = self.conv2(out)
         out = self.bn2(out)
 
-        #out = self.ca(out) * out
         out = self.sa(out) * out
 
         if self.downsample is not None:
@@ -244,7 +225,7 @@ def resnet18_cbam(pretrained=False, **kwargs):
     return model
 
 
-def resnet34_cbam(pretrained=False, **kwargs):
+def resnet34(pretrained=False, **kwargs):
     """Constructs a ResNet-34 model.
 
     Args:
@@ -276,7 +257,7 @@ def DMA_STA(pretrained=True, **kwargs):
     return model
 
 
-def resnet101_cbam(pretrained=False, **kwargs):
+def resnet101(pretrained=False, **kwargs):
     """Constructs a ResNet-101 model.
 
     Args:
@@ -291,7 +272,7 @@ def resnet101_cbam(pretrained=False, **kwargs):
     return model
 
 
-def resnet152_cbam(pretrained=False, **kwargs):
+def resnet152(pretrained=False, **kwargs):
     """Constructs a ResNet-152 model.
 
     Args:
