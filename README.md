@@ -30,3 +30,15 @@ We designed a simple and effective Deepfake video model attribution method based
 3. **Data structure**: DF_class*/Video*/Frame1.png, ... (cropped face images).
 
 4. **Hyper-parameters**: you can modify 'config.py' to set more detailed hyper-parameters.
+
+# License and Citation
+The DFDM database is released only for academic researches. Any researchers from educational institute are allowed to use this database freely for noncommercial purpose.
+
+If you use this database, please cite the following paper:
+```
+@article{jia2022model,
+  title={Model Attribution of Face-swap Deepfake Videos},
+  author={Jia, Shan and Li, Xin, and Lyu, Siwei},
+  journal={arXiv preprint arXiv:2202.12951},
+  year={2022}
+}
