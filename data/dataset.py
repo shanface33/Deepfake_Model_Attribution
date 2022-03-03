@@ -10,14 +10,10 @@ from glob import glob
 from pprint import pprint
 import uuid
 import tempfile
-
 import torch
 from torch.utils.data import DataLoader, Dataset
 from torchvision import transforms
 from PIL import Image
-
-
-
 
 class MyDataset(Dataset):
 
