@@ -34,7 +34,7 @@ We designed a simple and effective Deepfake video model attribution method based
 # License and Citation
 The DFDM database is released only for academic researches. Any researchers from educational institute are allowed to use this database freely for noncommercial purpose.
 
-If you use this database, please cite the following paper:
+If you use this dataset, please cite the following paper:
 ```
 @article{jia2022model,
   title={Model Attribution of Face-swap Deepfake Videos},
