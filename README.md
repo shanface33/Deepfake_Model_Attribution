@@ -38,7 +38,7 @@ If you use this database, please cite the following paper:
 ```
 @article{jia2022model,
   title={Model Attribution of Face-swap Deepfake Videos},
-  author={Jia, Shan and Li, Xin, and Lyu, Siwei},
+  author={Jia, Shan and Li, Xin and Lyu, Siwei},
   journal={arXiv preprint arXiv:2202.12951},
   year={2022}
 }
