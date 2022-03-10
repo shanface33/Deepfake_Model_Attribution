@@ -24,7 +24,7 @@ The database contains three folders "DFDM_crf*" with videos in three subfolders:
 - DFDM_crf23 ~ 4.3G: 2,150 videos from 5 models with lower qualities. 
 
 File name: id**\_id**\_(scene)\_(model_name).mp4  
-To extract frames/faces, we recommend to use FFMPEG, please refer to the Faceswap USAGE.md (https://github.com/deepfakes/faceswap/blob/master/USAGE.md#).
+To extract frames/faces, we recommend to use FFMPEG, please refer to the [Faceswap](https://github.com/deepfakes/faceswap) [USAGE.md](https://github.com/deepfakes/faceswap/blob/master/USAGE.md#).
 
 ### Download
 If you would like to access the *DFDM* dataset, please fill out this [google form](https://docs.google.com/forms/d/e/1FAIpQLSeM-1pJ13RyPVgF0bGRQtLiupwWDvALD6rKa_Oa8sIluIqtSA/viewform?vc=0&c=0&w=1&flr=0&usp=mail_form_link). The download link will be sent to you once the form is accepted (in 72 hours). If you have any questions, please send email to [dfdmdataset@gmail.com].
