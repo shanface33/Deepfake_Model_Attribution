@@ -18,9 +18,13 @@ The DFDM dataset includes face-swap Deepfakes videos generated from five Autoenc
 
 ### Dataset Structure
 The total size of the dataset files is ~82.4GB.
+
 The database contains three folders "DFDM_crf*" with videos in three subfolders:
+
 DFDM_crf0 ~ 53.7G: 2,150 videos from 5 models with lossless qualities;
+
 DFDM_crf10 ~ 24.4G: 2,150 videos from 5 models with higher qualities;
+
 DFDM_crf23 ~ 4.3G: 2,150 videos from 5 models with lower qualities. 
 
 File name: id**_id**_(scene)_(model_name).mp4
