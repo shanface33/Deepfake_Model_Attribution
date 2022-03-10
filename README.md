@@ -23,7 +23,7 @@ The database contains three folders "DFDM_crf*" with videos in three subfolders:
 - DFDM_crf10 ~ 24.4G: 2,150 videos from 5 models with higher qualities;
 - DFDM_crf23 ~ 4.3G: 2,150 videos from 5 models with lower qualities. 
 
-File name: id**_id**_(scene)_(model_name).mp4  
+File name: id**\_id**\_(scene)\_(model_name).mp4  
 To extract frames/faces, we recommend to use FFMPEG, please refer to the Faceswap USAGE.md (https://github.com/deepfakes/faceswap/blob/master/USAGE.md#).
 
 ### Download
