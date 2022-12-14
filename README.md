@@ -38,7 +38,7 @@ We designed a simple and effective Deepfake video model attribution method based
 4. **Hyper-parameters**: you can modify 'config.py' to set more detailed hyper-parameters.  
 
 # License and Citation
-The DFDM database is released only for academic researches. Any researchers from educational institute are allowed to use this database freely for noncommercial purpose.
+The DFDM database is released only for academic research. Researchers from educational institute are allowed to use this database freely for noncommercial purpose.
 
 If you use this dataset, please cite the following paper:
 ```
