@@ -42,9 +42,11 @@ The DFDM database is released only for academic research. Researchers from educa
 
 If you use this dataset, please cite the following paper:
 ```
-@article{jia2022model,
-  title={Model Attribution of Face-swap Deepfake Videos},
+@inproceedings{jia2022model,
+  title={Model attribution of face-swap deepfake videos},
   author={Jia, Shan and Li, Xin and Lyu, Siwei},
-  journal={arXiv preprint arXiv:2202.12951},
-  year={2022}
+  booktitle={2022 IEEE International Conference on Image Processing (ICIP)},
+  pages={2356--2360},
+  year={2022},
+  organization={IEEE}
 }
